@@ -8,6 +8,23 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 ## Installation
 
+From Xampp Console
+### installing
+```
+php "readfile('https://getcomposer.org/installer');" | php
+```
+### create new project
+```
+php composer.phar create-project --prefer-dist cakephp/app myproject
+```
+### installing using composer.json
+```
+php composer.phar install
+```
+### bake table
+```
+bin\cake bake all <table_name>
+```
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
