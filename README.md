@@ -22,7 +22,19 @@ php composer.phar install
 bin\cake bake all <table_name>
 ```
 
-## helper classes
+## HtmlHelper
+Folder Template/Layout/default.ctp
+```
+$this->Html->link(__('Patients'), ['controller'=>'patients', 'action'=>'index']);
+```
+It will create a link, first argument for text, double underscore function format string, second argument will be an array defined controller and action.
+
+## Element
+Folder Template/Element/actions.ctp
+```
+$this->Element('actions', array('type'=>'Patient','typePlural'=>'Patients'))
+```
+Here above we include a pre defined template to other views, dynamically providing values.
 
 ## Installation
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
