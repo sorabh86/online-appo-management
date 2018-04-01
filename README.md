@@ -1,12 +1,8 @@
 # Online Appo Man MCA-mini-project 
-### [CakePHP](http://cakephp.org) 
-
 
 A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.5.x.
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
-
-## Installation
 
 From Xampp Console
 ### installing
@@ -25,6 +21,10 @@ php composer.phar install
 ```
 bin\cake bake all <table_name>
 ```
+
+## helper classes
+
+## Installation
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
