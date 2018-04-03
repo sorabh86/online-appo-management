@@ -36,6 +36,13 @@ $this->Element('actions', array('type'=>'Patient','typePlural'=>'Patients'))
 ```
 Here above we include a pre defined template to other views, dynamically providing values.
 
+## Format Helper
+View/Helper
+
+```
+$this->Format->getName(id,'<table_name>')
+```
+
 ## Installation
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
