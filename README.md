@@ -4,7 +4,7 @@ A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.5.x.
 
 The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 
-From Xampp Console
+From Xampp Console 
 ### installing
 ```
 php "readfile('https://getcomposer.org/installer');" | php
